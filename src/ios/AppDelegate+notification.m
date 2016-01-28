@@ -65,7 +65,7 @@ static char launchNotificationKey;
   
   UIApplication *application = notification.object;
 
-  application.applicationIconBadgeNumber = 0;
+  //application.applicationIconBadgeNumber = 0;
   
   if (self.launchNotification) {
     PushPlugin *pushHandler = [self getCommandInstance:@"PushPlugin"];
